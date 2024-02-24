@@ -63,6 +63,7 @@ nav button {
   width: 100%;
   overflow: hidden;
   position: relative;
+  margin-top: 3rem;
 }
 .banner .img-1 {
   width: 100%;
@@ -215,7 +216,7 @@ nav button {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  padding: 0px;
+  margin: 0px;
 }
 @media (max-width: 666px) {
   .location p {
@@ -228,6 +229,7 @@ nav button {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  margin: 0px;
 }
 
 .gallery {
