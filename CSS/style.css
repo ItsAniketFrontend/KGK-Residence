@@ -278,6 +278,64 @@ nav button {
   border-radius: 60px;
 }
 
+.form {
+  padding-top: 300px;
+  margin-bottom: 100px;
+  background-color: #4A1C26;
+  margin-top: -300px;
+}
+.form .container {
+  background: #E7E7E7;
+  border-radius: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: -50px;
+}
+.form h1 {
+  color: #212121;
+  font-family: Futura-Medium;
+  font-size: 36.552px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.731px;
+  text-transform: uppercase;
+}
+.form .form-box {
+  padding: 50px;
+}
+.form .form-box .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.form .form-box .col-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.form .form-box input {
+  border-color: #000000;
+  background: transparent;
+  height: 31.342px;
+}
+.form .form-box label {
+  color: #202020;
+  font-family: Futura-Medium;
+  font-size: 13.827px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.277px;
+}
+.form .form-box textarea {
+  height: 135.89px;
+  border-color: #000000;
+  background: transparent;
+}
+
 footer {
   background: #151515;
   background-blend-mode: multiply;
@@ -317,13 +375,12 @@ footer p {
   font-weight: 400;
   width: 60%;
 }
-@media (max-width: 774px) {
+@media (max-width: 666px) {
   footer p {
     width: 100%;
   }
 }
 footer hr {
-  width: 1440px;
   height: 1px;
   background: rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.5019607843);
