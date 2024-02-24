@@ -8,6 +8,26 @@
   font-family: century-gothic;
   src: url(../Fonts/century-gothic/GOTHIC.TTF);
 }
+@font-face {
+  font-family: Lemon-Milk-Medium;
+  src: url(../Fonts/lemon-milk/LEMONMILK-Medium.otf);
+}
+@font-face {
+  font-family: Futura-Medium;
+  src: url(../Fonts/futura/futura\ medium\ bt.ttf);
+}
+@font-face {
+  font-family: Futura-Book;
+  src: url(../Fonts/futura/Futura\ Book\ font.ttf);
+}
+@font-face {
+  font-family: Futura-Heavy;
+  src: url(../Fonts/futura/Futura\ Heavy\ font.ttf);
+}
+@font-face {
+  font-family: Jost;
+  src: url(../Fonts/Jost/Jost-Regular.ttf);
+}
 nav {
   background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
   height: 75px;
@@ -19,6 +39,7 @@ nav .navbar-brand {
   background: #D9D9D9;
   box-shadow: 0px 1px 2.6px 0px rgba(0, 0, 0, 0.25);
   padding: 9px 21px;
+  z-index: 350;
 }
 nav .navbar-brand img {
   width: 136px;
@@ -51,13 +72,13 @@ nav button {
 .banner .cloud-1 {
   position: absolute;
   right: 20px;
-  top: 0;
+  top: 35px;
   z-index: 300;
 }
 .banner .cloud-2 {
   position: absolute;
   right: 35%;
-  top: 0;
+  top: 35px;
   z-index: 300;
 }
 .banner .building {
@@ -81,6 +102,27 @@ nav button {
   left: 10%;
   top: 30%;
 }
+.banner .text-wrap h6,
+.banner .text-wrap p {
+  font-family: Futura-Medium;
+  color: #2B2B2B;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+.banner .text-wrap h1,
+.banner .text-wrap h2 {
+  color: #4A1C26;
+  font-family: century-gothic;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+}
 
 .about {
   overflow: hidden;
@@ -88,9 +130,69 @@ nav button {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 150px;
 }
 .about .content-wrap {
   padding-left: 40px;
+}
+.about .content-wrap h2 {
+  color: #4A1C26;
+  font-family: Lemon-Milk-Medium;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.about .content-wrap p {
+  color: #1D1D1D;
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.4px;
+}
+.about .content-wrap button {
+  padding: 5px 60px;
+  border: none;
+  background-color: #D9D9D9;
+}
+.about .content-wrap button a {
+  color: #4A1C26;
+  font-family: Futura-Medium;
+  font-size: 32.973px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.659px;
+  text-transform: uppercase;
+}
+.about .boto p {
+  color: #252525;
+  font-family: Futura-Medium;
+  font-size: 25.705px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52.926px;
+  /* 205.896% */
+}
+.about .boto h2 {
+  color: #612532;
+  font-family: Lemon-Milk-Medium;
+  font-size: 40.895px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 74.108px;
+  /* 181.215% */
+  text-transform: uppercase;
+}
+
+.amenities .bg {
+  background: #612532;
+}
+.amenities .bg .cole {
+  margin-top: -100px;
 }
 
 .location {
@@ -99,4 +201,102 @@ nav button {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.location h2 {
+  color: #4A1C26;
+  font-family: Lemon-Milk-Medium;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.location p {
+  color: #1D1D1D;
+  font-family: Futura-Medium;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0px;
+}
+@media (max-width: 666px) {
+  .location p {
+    font-size: 19px;
+  }
+}
+.location h6 {
+  color: #4A1C26;
+  font-family: Futura-Heavy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.gallery {
+  overflow: hidden;
+}
+.gallery p {
+  color: #252525;
+  text-align: center;
+  font-family: Futura-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.gallery p span {
+  color: #4A1C26;
+  font-family: Futura-Medium;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.gallery h2 {
+  color: #612532;
+  font-family: Lemon-Milk-Medium;
+  font-size: 40.895px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.gallery h5 {
+  color: #1C1C1C;
+  font-family: Futura-Medium;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 14px;
+  letter-spacing: 0.44px;
+}
+.gallery hr {
+  width: 223px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #1C1C1C;
+}
+.gallery img {
+  border-radius: 60px;
+}
+
+footer {
+  background: #151515;
+  background-blend-mode: multiply;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+footer .logo-wrap {
+  width: 247px;
+  height: 149px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 30px 30px;
+  background: #D9D9D9;
+  box-shadow: 0px 1px 2.6px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .qr-box {
+  width: 204px;
+  height: 204px;
+  flex-shrink: 0;
+  background: #D9D9D9;
 }/*# sourceMappingURL=style.css.map */
