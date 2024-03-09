@@ -30,6 +30,7 @@
 }
 nav {
   background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
+  height: 64px;
   padding: 0px !important;
 }
 nav .navbar-brand {
@@ -277,6 +278,14 @@ nav button {
 }
 .gallery img {
   border-radius: 60px;
+}
+.gallery .text-to-change {
+  color: #fff;
+}
+@media (max-width: 556px) {
+  .gallery .text-to-change {
+    color: #000000;
+  }
 }
 
 .form {

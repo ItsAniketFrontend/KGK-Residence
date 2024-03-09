@@ -39,9 +39,8 @@
 
 nav {
     background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
-    // height: 75px;
+    height: 64px;
     padding: 0px !important;
-
     .navbar-brand {
         height: 88px;
         border-radius: 0px 0px 14px 14px;
@@ -320,6 +319,12 @@ nav {
 
     img {
         border-radius: 60px;
+    }
+    .text-to-change{
+        color: #fff;
+        @media (max-width:556px) {
+            color: #000000;
+        }
     }
 }
 
