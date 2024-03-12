@@ -41,9 +41,20 @@ nav .navbar-brand {
   padding: 9px 21px;
   z-index: 350;
 }
+@media (max-width: 991px) {
+  nav .navbar-brand {
+    height: 66px;
+  }
+}
 nav .navbar-brand img {
   width: 136px;
   height: 71px;
+}
+@media (max-width: 991px) {
+  nav .navbar-brand img {
+    width: 120px;
+    height: 55px;
+  }
 }
 nav a {
   color: #fff !important;
@@ -57,6 +68,11 @@ nav button {
   border: 1px solid #FFF;
   background-color: #4A1C26;
   padding: 2px 10px;
+}
+@media (max-width: 991px) {
+  nav .navbar-collapse {
+    background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
+  }
 }
 
 .banner {
@@ -111,7 +127,7 @@ nav button {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  padding-bottom: 10px;
+  margin-bottom: 0px;
 }
 .banner .text-wrap h1,
 .banner .text-wrap h2 {
@@ -123,6 +139,32 @@ nav button {
   line-height: 26px;
   padding: 10px 0px;
   text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.phone-text h6,
+.phone-text p {
+  font-family: Futura-Medium;
+  color: #2B2B2B;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+.phone-text h1,
+.phone-text h2 {
+  color: #4A1C26;
+  font-family: century-gothic;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .about {
@@ -133,8 +175,19 @@ nav button {
   background-size: cover;
   padding-bottom: 150px;
 }
+@media (max-width: 774px) {
+  .about {
+    padding-bottom: 30px;
+  }
+}
 .about .content-wrap {
   padding-left: 40px;
+}
+@media (max-width: 991px) {
+  .about .content-wrap {
+    padding: inherit;
+    padding-top: 18px;
+  }
 }
 .about .content-wrap h2 {
   color: #4A1C26;
@@ -146,6 +199,12 @@ nav button {
   text-transform: uppercase;
   margin-bottom: 40px;
 }
+@media (max-width: 991px) {
+  .about .content-wrap h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+}
 .about .content-wrap p {
   color: #1D1D1D;
   font-family: Jost;
@@ -153,6 +212,12 @@ nav button {
   font-style: normal;
   font-weight: 400;
   line-height: 25.4px;
+}
+@media (max-width: 991px) {
+  .about .content-wrap p {
+    text-align: center;
+    font-size: 16px;
+  }
 }
 .about .content-wrap button {
   padding: 5px 60px;
@@ -169,14 +234,22 @@ nav button {
   letter-spacing: 0.659px;
   text-transform: uppercase;
 }
+@media (max-width: 991px) {
+  .about .content-wrap button a {
+    font-size: 26px;
+  }
+}
+@media (max-width: 991px) {
+  .about .boto {
+    margin-top: 30px;
+  }
+}
 .about .boto p {
   color: #252525;
   font-family: Futura-Medium;
   font-size: 25.705px;
   font-style: normal;
   font-weight: 400;
-  line-height: 52.926px;
-  /* 205.896% */
 }
 .about .boto h2 {
   color: #612532;
@@ -194,6 +267,74 @@ nav button {
 }
 .amenities .bg .cole {
   margin-top: -100px;
+}
+@media (max-width: 990px) {
+  .amenities .bg .cole {
+    margin-top: 0px;
+  }
+}
+.amenities .bg .carde {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.amenities .bg .carde img {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  margin: 30px 0px;
+  width: 100%;
+}
+.amenities .bg .carde .content-wrap {
+  position: absolute;
+  bottom: -180px;
+  transition: all 0.4s;
+}
+.amenities .bg .carde .content-wrap h6 {
+  font-family: Futura-Medium;
+  color: #FFF;
+  text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.amenities .bg .carde .content-wrap hr {
+  background: #FFF;
+  border: 2px solid #FFF;
+}
+.amenities .bg .carde .content-wrap h2 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
+  font-family: Lemon-Milk-Medium;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.amenities .bg .carde .content-wrap button {
+  background: transparent;
+  border: 1px solid #FFF;
+}
+.amenities .bg .carde .content-wrap button a {
+  color: #FFF;
+  font-family: Futura-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 7px 16px;
+}
+.amenities .bg .carde:hover .content-wrap {
+  bottom: 40px;
+}
+.amenities .bg .carde:hover img {
+  filter: brightness(0.6);
+  margin-top: 20px;
 }
 
 .location {
@@ -231,6 +372,67 @@ nav button {
   font-style: normal;
   font-weight: 400;
   margin: 0px;
+}
+
+.floor {
+  overflow: hidden;
+}
+.floor hr {
+  background: #000;
+  border: 1px solid #000;
+  width: 50%;
+}
+.floor p {
+  color: #252525;
+  font-family: Futura-Medium;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.floor h1 {
+  color: #612532;
+  font-family: Lemon-Milk-Medium;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.floor .tab-content {
+  padding: 30px 0px;
+  background: #4A1C26;
+}
+.floor .tab-content .img-box {
+  padding: 30px;
+  border-radius: 29px;
+  border: 1px solid #FFF;
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.floor .tab-content h4 {
+  color: #F6F6F6;
+  font-family: Futura-Medium;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.floor .tab-content .grey-box {
+  border-radius: 10px;
+  background: #D9D9D9;
+  padding: 10px;
+}
+.floor .tab-content .load {
+  color: #212121;
+  font-family: Futura-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.floor .tab-content span {
+  color: #212121;
+  font-family: Futura-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .gallery {
@@ -287,12 +489,15 @@ nav button {
     color: #000000;
   }
 }
+.gallery .text-to-chang {
+  color: #fff;
+}
 
 .form {
   padding-top: 300px;
-  margin-bottom: 100px;
   background-color: #4A1C26;
   margin-top: -300px;
+  padding-bottom: 60px;
 }
 .form .container {
   background: #E7E7E7;
@@ -301,7 +506,6 @@ nav button {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  bottom: -50px;
 }
 .form h1 {
   color: #212121;

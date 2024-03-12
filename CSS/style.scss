@@ -41,6 +41,7 @@ nav {
     background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
     height: 64px;
     padding: 0px !important;
+
     .navbar-brand {
         height: 88px;
         border-radius: 0px 0px 14px 14px;
@@ -49,9 +50,18 @@ nav {
         padding: 9px 21px;
         z-index: 350;
 
+        @media (max-width:991px) {
+            height: 66px;
+        }
+
         img {
             width: 136px;
             height: 71px;
+
+            @media (max-width:991px) {
+                width: 120px;
+                height: 55px;
+            }
         }
     }
 
@@ -69,6 +79,12 @@ nav {
         background-color: #4A1C26;
         padding: 2px 10px;
     }
+
+    @media (max-width:991px) {
+        .navbar-collapse {
+            background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
+        }
+    }
 }
 
 .banner {
@@ -77,6 +93,7 @@ nav {
     overflow: hidden;
     position: relative;
     margin-top: 3rem;
+
     .img-1 {
         width: 100%;
         height: 100%;
@@ -129,7 +146,7 @@ nav {
             font-style: normal;
             font-weight: 400;
             line-height: 26px;
-            padding-bottom: 10px;
+            margin-bottom: 0px;
         }
 
         h1,
@@ -142,7 +159,37 @@ nav {
             line-height: 26px;
             padding: 10px 0px;
             text-transform: uppercase;
+            margin-bottom: 0px;
+            margin-top: 10px;
         }
+    }
+}
+
+.phone-text {
+
+    h6,
+    p {
+        font-family: Futura-Medium;
+        color: #2B2B2B;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 0px;
+    }
+
+    h1,
+    h2 {
+        color: #4A1C26;
+        font-family: century-gothic;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        padding: 10px 0px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        margin-top: 10px;
     }
 }
 
@@ -154,8 +201,17 @@ nav {
     background-size: cover;
     padding-bottom: 150px;
 
+    @media (max-width:774px) {
+        padding-bottom: 30px;
+    }
+
     .content-wrap {
         padding-left: 40px;
+
+        @media (max-width:991px) {
+            padding: inherit;
+            padding-top: 18px;
+        }
 
         h2 {
             color: #4A1C26;
@@ -166,6 +222,11 @@ nav {
             line-height: 42px;
             text-transform: uppercase;
             margin-bottom: 40px;
+
+            @media (max-width:991px) {
+                text-align: center;
+                font-size: 24px;
+            }
         }
 
         p {
@@ -175,6 +236,11 @@ nav {
             font-style: normal;
             font-weight: 400;
             line-height: 25.4px;
+
+            @media (max-width:991px) {
+                text-align: center;
+                font-size: 16px;
+            }
         }
 
         button {
@@ -191,19 +257,25 @@ nav {
                 text-decoration: none;
                 letter-spacing: 0.659px;
                 text-transform: uppercase;
+
+                @media (max-width:991px) {
+                    font-size: 26px;
+                }
             }
         }
     }
 
     .boto {
+        @media (max-width:991px) {
+            margin-top: 30px;
+        }
+
         p {
             color: #252525;
             font-family: Futura-Medium;
             font-size: 25.705px;
             font-style: normal;
             font-weight: 400;
-            line-height: 52.926px;
-            /* 205.896% */
         }
 
         h2 {
@@ -225,10 +297,87 @@ nav {
 
         .cole {
             margin-top: -100px;
+
+            @media (max-width:990px) {
+                margin-top: 0px;
+            }
+        }
+
+        .carde {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            img {
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 30px 0px;
+                width: 100%;
+            }
+
+            .content-wrap {
+                position: absolute;
+                bottom: -180px;
+                transition: all 0.4s;
+
+                h6 {
+                    font-family: Futura-Medium;
+                    color: #FFF;
+                    text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                hr {
+                    background: #FFF;
+                    border: 2px solid #FFF;
+                }
+
+                h2 {
+                    color: #FFF;
+                    text-align: center;
+                    text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
+                    font-family: Lemon-Milk-Medium;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+
+                button {
+                    background: transparent;
+                    border: 1px solid #FFF;
+
+                    a {
+                        color: #FFF;
+                        font-family: Futura-Medium;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        padding: 7px 16px;
+                    }
+                }
+            }
+
+            &:hover .content-wrap {
+                bottom: 40px;
+            }
+
+            &:hover img {
+                filter: brightness(0.6);
+                margin-top: 20px;
+            }
         }
     }
-}
 
+}
 
 .location {
     overflow: hidden;
@@ -266,6 +415,74 @@ nav {
         font-style: normal;
         font-weight: 400;
         margin: 0px;
+    }
+}
+
+.floor {
+    overflow: hidden;
+
+    hr {
+        background: #000;
+        border: 1px solid #000;
+        width: 50%;
+    }
+
+    p {
+        color: #252525;
+        font-family: Futura-Medium;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    h1 {
+        color: #612532;
+        font-family: Lemon-Milk-Medium;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .tab-content {
+        padding: 30px 0px;
+        background: #4A1C26;
+
+        .img-box {
+            padding: 30px;
+            border-radius: 29px;
+            border: 1px solid #FFF;
+            background: #D9D9D9;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        h4 {
+            color: #F6F6F6;
+            font-family: Futura-Medium;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        .grey-box {
+            border-radius: 10px;
+            background: #D9D9D9;
+            padding: 10px;
+        }
+        .load{
+            color: #212121;
+            font-family: Futura-Medium;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        span{
+            color: #212121;
+font-family: Futura-Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+        }
     }
 }
 
@@ -320,19 +537,25 @@ nav {
     img {
         border-radius: 60px;
     }
-    .text-to-change{
+
+    .text-to-change {
         color: #fff;
+
         @media (max-width:556px) {
             color: #000000;
         }
+    }
+
+    .text-to-chang {
+        color: #fff;
     }
 }
 
 .form {
     padding-top: 300px;
-    margin-bottom: 100px;
     background-color: #4A1C26;
     margin-top: -300px;
+    padding-bottom: 60px;
 
     .container {
         background: #E7E7E7;
@@ -341,7 +564,6 @@ nav {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        bottom: -50px;
     }
 
     h1 {
@@ -356,6 +578,7 @@ nav {
 
     .form-box {
         padding: 50px;
+
         .col-6 {
             display: flex;
             flex-direction: column;
@@ -434,6 +657,7 @@ footer {
         font-style: normal;
         font-weight: 400;
         width: 60%;
+
         @media (max-width:666px) {
             width: 100%;
         }
