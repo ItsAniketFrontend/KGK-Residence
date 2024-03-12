@@ -506,6 +506,7 @@ nav button {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding: 50px;
 }
 .form h1 {
   color: #212121;
@@ -516,8 +517,40 @@ nav button {
   letter-spacing: 0.731px;
   text-transform: uppercase;
 }
+.form h1 span {
+  color: #4A1C26;
+  font-family: Futura-Medium;
+  font-size: 41.121px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48.875px;
+  letter-spacing: 0.822px;
+  text-transform: uppercase;
+}
+.form .regis {
+  position: relative;
+}
+.form .regis::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  right: 0px;
+  top: 0px;
+  height: 410px;
+  border: 1px solid #000;
+}
+@media (max-width: 994px) {
+  .form .regis::before {
+    display: none;
+  }
+}
 .form .form-box {
-  padding: 50px;
+  padding: 40px;
+}
+@media (max-width: 994px) {
+  .form .form-box {
+    padding: 0px;
+  }
 }
 .form .form-box .col-6 {
   display: flex;
@@ -532,22 +565,31 @@ nav button {
   flex-shrink: 0;
 }
 .form .form-box input {
-  border-color: #000000;
+  stroke-width: 0.864px;
+  stroke: #000;
   background: transparent;
   height: 31.342px;
+  color: #202020;
+  font-family: Futura-Book;
+  font-size: 13.827px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.277px;
+  padding: 10px;
 }
 .form .form-box label {
   color: #202020;
-  font-family: Futura-Medium;
+  font-family: Futura-Book;
   font-size: 13.827px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.277px;
 }
 .form .form-box textarea {
-  height: 135.89px;
-  border-color: #000000;
+  stroke-width: 0.864px;
+  stroke: #000;
   background: transparent;
+  height: 135.89px;
 }
 
 footer {
