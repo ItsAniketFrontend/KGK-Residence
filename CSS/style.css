@@ -312,6 +312,7 @@ nav button {
   font-family: Lemon-Milk-Medium;
   font-size: 30px;
   font-style: normal;
+  letter-spacing: 2.1px;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -334,7 +335,6 @@ nav button {
 }
 .amenities .bg .carde:hover img {
   filter: brightness(0.6);
-  margin-top: 20px;
 }
 
 .location {
@@ -355,7 +355,7 @@ nav button {
 .location p {
   color: #1D1D1D;
   font-family: Futura-Medium;
-  font-size: 22px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   margin: 0px;
