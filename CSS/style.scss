@@ -251,7 +251,7 @@ nav {
             a {
                 color: #4A1C26;
                 font-family: Futura-Medium;
-                font-size: 32.973px;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 400;
                 text-decoration: none;
@@ -259,7 +259,7 @@ nav {
                 text-transform: uppercase;
 
                 @media (max-width:991px) {
-                    font-size: 26px;
+                    font-size: 16px;
                 }
             }
         }
@@ -453,7 +453,18 @@ nav {
             border-radius: 29px;
             border: 1px solid #FFF;
             background: #D9D9D9;
+            flex: 1;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .flat-size{
+            flex: 1;
+        }
+        .features{
+            flex: 1;
         }
 
         h4 {
@@ -468,6 +479,7 @@ nav {
             border-radius: 10px;
             background: #D9D9D9;
             padding: 10px;
+            width: fit-content;
         }
 
         .load {
@@ -646,6 +658,11 @@ nav {
             font-style: normal;
             font-weight: 400;
             letter-spacing: 0.277px;
+            position: relative;
+            bottom: -10px;
+            background-color: #D9D9D9;
+            width: fit-content;
+            padding: 0px 3px;
         }
 
         textarea {
