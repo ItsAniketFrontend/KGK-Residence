@@ -143,28 +143,58 @@ nav button {
   margin-top: 10px;
 }
 
-.phone-text h6,
-.phone-text p {
+.phone-banner {
+  width: 100%;
+  height: 324px;
+  position: relative;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.phone-banner .phone-bg {
+  width: 100%;
+  height: 100%;
+}
+.phone-banner .phone-banner {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.phone-banner .text-wrap {
+  position: absolute;
+  padding: 0px 50px;
+  bottom: 0px;
+}
+.phone-banner .text-wrap h6 {
+  color: #FFF;
+  text-align: center;
   font-family: Futura-Medium;
-  color: #2B2B2B;
-  font-size: 22px;
+  font-size: 10.426px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 0px;
+  line-height: 12.743px;
+  /* 122.222% */
 }
-.phone-text h1,
-.phone-text h2 {
-  color: #4A1C26;
+.phone-banner .text-wrap h2 {
+  color: #FFF;
+  text-shadow: 0px 1.158px 1.738px rgba(0, 0, 0, 0.53);
   font-family: century-gothic;
-  font-size: 30px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px;
-  padding: 10px 0px;
+  line-height: 12.383px;
+  /* 77.395% */
   text-transform: uppercase;
-  margin-bottom: 0px;
-  margin-top: 10px;
+  text-align: center;
+}
+.phone-banner .text-wrap h2 span {
+  color: #FFF;
+  font-family: Futura-Medium;
+  font-size: 9.943px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  text-align: center;
 }
 
 .about {
@@ -260,6 +290,49 @@ nav button {
   line-height: 74.108px;
   /* 181.215% */
   text-transform: uppercase;
+}
+
+.phone-about h2 {
+  color: #4A1C26;
+  text-align: center;
+  font-family: Lemon-Milk-Medium;
+  font-size: 13.92px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 143.678% */
+  text-transform: uppercase;
+  margin: 30px 40px;
+}
+.phone-about img {
+  position: relative;
+  right: 0px;
+}
+.phone-about p {
+  color: #1D1D1D;
+  text-align: center;
+  font-family: Futura-Book;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+  margin: 19px 0px;
+}
+.phone-about button {
+  border: none;
+  background: #4A1C26;
+  padding: 4px 20px;
+  margin-bottom: 38px;
+}
+.phone-about button a {
+  color: #FFF;
+  font-family: Futura-Medium;
+  font-size: 12.343px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10.667px; /* 86.42% */
+  letter-spacing: 0.247px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .amenities .bg {
@@ -371,6 +444,56 @@ nav button {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  margin: 0px;
+}
+
+.location-phone h1 {
+  color: #4A1C26;
+  font-family: Lemon-Milk-Medium;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23.025px; /* 135.441% */
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+.location-phone h5 {
+  color: #1D1D1D;
+  font-family: Futura-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.898px; /* 132.485% */
+}
+.location-phone img {
+  margin: 14px 0px;
+}
+.location-phone h2 {
+  color: #4A1C26;
+  font-family: Futura-Heavy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.165px; /* 143.045% */
+  margin: 5px 0px;
+}
+.location-phone h6 {
+  color: #1E1E1E;
+  font-family: Futura-Book;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12.063px; /* 134.031% */
+  margin: 0px;
+}
+.location-phone p {
+  color: #1E1E1E;
+  font-family: Futura-Medium;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12.063px; /* 134.031% */
   margin: 0px;
 }
 
@@ -490,6 +613,11 @@ nav button {
   height: 1px;
   border-radius: 0.5px;
   background: #1C1C1C;
+}
+.gallery .bg {
+  height: 1px;
+  border-radius: 0.5px;
+  background: #fff;
 }
 .gallery img {
   border-radius: 60px;
@@ -659,4 +787,74 @@ footer hr {
   height: 1px;
   background: rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.5019607843);
+}
+
+.foot-phone {
+  background: #151515;
+  background-blend-mode: multiply;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.foot-phone .logo-box {
+  border-radius: 0px 0px 15.441px 15.441px;
+  background: #D9D9D9;
+  box-shadow: 0px 0.515px 1.338px 0px rgba(0, 0, 0, 0.25);
+  width: 127.647px;
+  height: 70px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-phone h2 {
+  color: #FFF;
+  font-family: Lemon-Milk-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33.656px; /* 224.375% */
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.foot-phone h6 {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: Futura-Medium;
+  font-size: 6.857px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.662px; /* 67.98% */
+}
+.foot-phone p {
+  color: #FFF;
+  font-family: Futura-Medium;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 150% */
+}
+.foot-phone button {
+  margin: 15px 0px;
+}
+.foot-phone button a {
+  color: #4A1C26;
+  font-family: Futura-Heavy;
+  font-size: 11.08px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.094px; /* 118.182% */
+  padding: 10px 4px;
+  text-decoration: none;
+}
+.foot-phone hr {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.foot-phone h5 {
+  color: #FFF;
+  font-family: Futura-Book;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.326px; /* 90.369% */
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
