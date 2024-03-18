@@ -72,6 +72,10 @@ nav {
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
+        transition: 200ms;
+        &:hover{
+            border: 1px solid #fff;
+        }
     }
 
     button {
@@ -293,6 +297,13 @@ nav {
                 @media (max-width:991px) {
                     font-size: 16px;
                 }
+            }
+            &:hover{
+                background-color: #4A1C26;
+                color: #D9D9D9;
+            }
+            &:hover a{
+                color: #D9D9D9;
             }
         }
     }

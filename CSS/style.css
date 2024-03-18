@@ -63,6 +63,10 @@ nav a {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  transition: 200ms;
+}
+nav a:hover {
+  border: 1px solid #fff;
 }
 nav button {
   border: 1px solid #FFF;
@@ -268,6 +272,13 @@ nav button {
   .about .content-wrap button a {
     font-size: 16px;
   }
+}
+.about .content-wrap button:hover {
+  background-color: #4A1C26;
+  color: #D9D9D9;
+}
+.about .content-wrap button:hover a {
+  color: #D9D9D9;
 }
 @media (max-width: 991px) {
   .about .boto {
