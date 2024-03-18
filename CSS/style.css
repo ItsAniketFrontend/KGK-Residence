@@ -413,6 +413,90 @@ nav button {
   filter: brightness(0.6);
 }
 
+.phone-aminities {
+  background: #612532;
+}
+.phone-aminities p {
+  color: #fff;
+  font-family: Futura-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+}
+.phone-aminities h2 {
+  color: #ffffff;
+  font-family: Lemon-Milk-Medium;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px; /* 111.765% */
+  text-transform: uppercase;
+}
+.phone-aminities .carde {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.phone-aminities .carde img {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  margin: 30px 0px;
+  width: 100%;
+}
+.phone-aminities .carde .content-wrap {
+  position: absolute;
+  bottom: -180px;
+  transition: all 0.4s;
+}
+.phone-aminities .carde .content-wrap h6 {
+  font-family: Futura-Medium;
+  color: #FFF;
+  text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.phone-aminities .carde .content-wrap hr {
+  background: #FFF;
+  border: 2px solid #FFF;
+}
+.phone-aminities .carde .content-wrap h2 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
+  font-family: Lemon-Milk-Medium;
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: 2.1px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.phone-aminities .carde .content-wrap button {
+  background: transparent;
+  border: 1px solid #FFF;
+}
+.phone-aminities .carde .content-wrap button a {
+  color: #FFF;
+  font-family: Futura-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 7px 16px;
+}
+.phone-aminities .carde:hover .content-wrap {
+  bottom: 40px;
+}
+.phone-aminities .carde:hover img {
+  filter: brightness(0.6);
+}
+
 .location {
   overflow: hidden;
   background: url(../Images/loacation_bg.png);
@@ -579,6 +663,82 @@ nav button {
   font-weight: 400;
 }
 
+.phone-floor {
+  overflow: hidden;
+  padding-top: 35px;
+}
+.phone-floor hr {
+  background: #000;
+  border: 1px solid #000;
+  width: 50%;
+}
+.phone-floor p {
+  color: #252525;
+  font-family: Futura-Medium;
+  font-size: 11.469px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.076px;
+  /* 122.727% */
+}
+.phone-floor h1 {
+  color: #612532;
+  font-family: Lemon-Milk-Medium;
+  font-size: 18.247px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38.635px;
+  /* 211.736% */
+  text-transform: uppercase;
+}
+.phone-floor .tab-content {
+  padding: 30px 0px;
+  background: #4A1C26;
+}
+.phone-floor .tab-content .img-box {
+  height: 385px;
+  border-radius: 29px;
+  border: 1px solid #FFF;
+  background: #D9D9D9;
+  flex: 1;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.phone-floor .tab-content .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.phone-floor .tab-content .flat-size {
+  flex: 1;
+}
+.phone-floor .tab-content h4 {
+  color: #F6F6F6;
+  font-family: Futura-Medium;
+  font-size: 14.13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.phone-floor .tab-content .grey-box {
+  border-radius: 10px;
+  background: #D9D9D9;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.phone-floor .tab-content .load {
+  color: #212121;
+  font-family: Futura-Medium;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+}
+.phone-floor .tab-content span {
+  color: #212121;
+  font-family: Futura-Medium;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .gallery {
   overflow: hidden;
 }
@@ -639,6 +799,66 @@ nav button {
   }
 }
 .gallery .text-to-chang {
+  color: #fff;
+}
+
+.phone-gallery {
+  background: #4A1C26;
+}
+.phone-gallery p {
+  color: #FFF;
+  text-align: center;
+  font-family: Futura-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0px;
+  line-height: 15.13px;
+  /* 126.085% */
+}
+.phone-gallery h2 {
+  color: #FFF;
+  font-family: Lemon-Milk-Medium;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.208px;
+  /* 127.412% */
+  text-transform: uppercase;
+}
+.phone-gallery h5 {
+  color: #fff;
+  font-family: Futura-Medium;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 14px;
+  letter-spacing: 0.44px;
+  text-align: center;
+}
+.phone-gallery hr {
+  width: 223px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #1C1C1C;
+}
+.phone-gallery .bg {
+  height: 1px;
+  border-radius: 0.5px;
+  background: #fff;
+}
+.phone-gallery img {
+  border-radius: 60px;
+}
+.phone-gallery .text-to-change {
+  color: #fff;
+}
+@media (max-width: 556px) {
+  .phone-gallery .text-to-change {
+    color: #fff;
+  }
+}
+.phone-gallery .text-to-chang {
   color: #fff;
 }
 
@@ -815,7 +1035,8 @@ nav button {
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 8.158px; /* 67.98% */
+  line-height: 8.158px;
+  /* 67.98% */
   letter-spacing: 0.24px;
   text-transform: uppercase;
   text-decoration: none;
