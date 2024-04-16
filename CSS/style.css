@@ -29,7 +29,7 @@
   src: url(../Fonts/Jost/Jost-Regular.ttf);
 }
 nav {
-  background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
+  background: #59392C;
   height: 64px;
   padding: 0px !important;
 }
@@ -70,7 +70,7 @@ nav a:hover {
 }
 nav button {
   border: 1px solid #FFF;
-  background-color: #4A1C26;
+  background-color: #59392C;
   padding: 2px 10px;
 }
 @media (max-width: 991px) {
@@ -135,7 +135,7 @@ nav button {
 }
 .banner .text-wrap h1,
 .banner .text-wrap h2 {
-  color: #4A1C26;
+  color: #59392C;
   font-family: century-gothic;
   font-size: 30px;
   font-style: normal;
@@ -207,7 +207,7 @@ nav button {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 150px;
+  padding-bottom: 68px;
 }
 @media (max-width: 774px) {
   .about {
@@ -224,7 +224,7 @@ nav button {
   }
 }
 .about .content-wrap h2 {
-  color: #4A1C26;
+  color: #59392C;
   font-family: Lemon-Milk-Medium;
   font-size: 30px;
   font-style: normal;
@@ -293,7 +293,7 @@ nav button {
   font-weight: 400;
 }
 .about .boto h2 {
-  color: #612532;
+  color: #59392C;
   font-family: Lemon-Milk-Medium;
   font-size: 40.895px;
   font-style: normal;
@@ -304,7 +304,7 @@ nav button {
 }
 
 .phone-about h2 {
-  color: #4A1C26;
+  color: #59392C;
   text-align: center;
   font-family: Lemon-Milk-Medium;
   font-size: 17.92px;
@@ -332,7 +332,7 @@ nav button {
 }
 .phone-about button {
   border: none;
-  background: #4A1C26;
+  background: #59392C;
   padding: 4px 20px;
   margin-bottom: 38px;
 }
@@ -350,7 +350,7 @@ nav button {
 }
 
 .amenities .bg {
-  background: #612532;
+  background: #59392C;
 }
 .amenities .bg .cole {
   margin-top: -100px;
@@ -418,14 +418,14 @@ nav button {
   padding: 7px 16px;
 }
 .amenities .bg .carde:hover .content-wrap {
-  bottom: 40px;
+  bottom: 70px;
 }
 .amenities .bg .carde:hover img {
   filter: brightness(0.6);
 }
 
 .phone-aminities {
-  background: #612532;
+  background: #59392C;
 }
 .phone-aminities p {
   color: #fff;
@@ -457,11 +457,13 @@ nav button {
   border-top-right-radius: 200px;
   margin: 30px 0px;
   width: 100%;
+  filter: brightness(0.9);
 }
 .phone-aminities .carde .content-wrap {
   position: absolute;
   bottom: -180px;
   transition: all 0.4s;
+  bottom: 70px;
 }
 .phone-aminities .carde .content-wrap h6 {
   font-family: Futura-Medium;
@@ -481,7 +483,7 @@ nav button {
   text-align: center;
   text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
   font-family: Lemon-Milk-Medium;
-  font-size: 30px;
+  font-size: 18px;
   font-style: normal;
   letter-spacing: 2.1px;
   font-weight: 500;
@@ -501,12 +503,6 @@ nav button {
   text-decoration: none;
   padding: 7px 16px;
 }
-.phone-aminities .carde:hover .content-wrap {
-  bottom: 40px;
-}
-.phone-aminities .carde:hover img {
-  filter: brightness(0.6);
-}
 
 .location {
   overflow: hidden;
@@ -516,7 +512,7 @@ nav button {
   background-size: cover;
 }
 .location h2 {
-  color: #4A1C26;
+  color: #59392C;
   font-family: Lemon-Milk-Medium;
   font-size: 30px;
   font-style: normal;
@@ -537,7 +533,7 @@ nav button {
   }
 }
 .location h6 {
-  color: #4A1C26;
+  color: #59392C;
   font-family: Futura-Heavy;
   font-size: 20px;
   font-style: normal;
@@ -546,7 +542,7 @@ nav button {
 }
 
 .location-phone h1 {
-  color: #4A1C26;
+  color: #59392C;
   font-family: Lemon-Milk-Medium;
   font-size: 17px;
   font-style: normal;
@@ -570,7 +566,7 @@ nav button {
   margin: 14px 0px;
 }
 .location-phone h2 {
-  color: #4A1C26;
+  color: #59392C;
   font-family: Futura-Heavy;
   font-size: 18px;
   font-style: normal;
@@ -616,7 +612,7 @@ nav button {
   font-weight: 400;
 }
 .floor h1 {
-  color: #612532;
+  color: #59392C;
   font-family: Lemon-Milk-Medium;
   font-size: 35px;
   font-style: normal;
@@ -625,7 +621,7 @@ nav button {
 }
 .floor .tab-content {
   padding: 30px 0px;
-  background: #4A1C26;
+  background: #59392C;
 }
 .floor .tab-content .img-box {
   height: 385px;
@@ -693,7 +689,7 @@ nav button {
   /* 122.727% */
 }
 .phone-floor h1 {
-  color: #612532;
+  color: #59392C;
   font-family: Lemon-Milk-Medium;
   font-size: 18.247px;
   font-style: normal;
@@ -704,7 +700,7 @@ nav button {
 }
 .phone-floor .tab-content {
   padding: 30px 0px;
-  background: #4A1C26;
+  background: #59392C;
 }
 .phone-floor .tab-content .img-box {
   height: 385px;
@@ -770,7 +766,7 @@ nav button {
   line-height: 25px;
 }
 .gallery h2 {
-  color: #612532;
+  color: #59392C;
   font-family: Lemon-Milk-Medium;
   font-size: 40.895px;
   font-style: normal;
@@ -795,6 +791,7 @@ nav button {
 }
 .gallery .bg {
   height: 1px;
+  border: 1px solid #fff;
   border-radius: 0.5px;
   background: #fff;
 }
@@ -814,7 +811,7 @@ nav button {
 }
 
 .phone-gallery {
-  background: #4A1C26;
+  background: #59392C;
 }
 .phone-gallery p {
   color: #FFF;
@@ -875,7 +872,7 @@ nav button {
 
 .form {
   padding-top: 300px;
-  background-color: #4A1C26;
+  background-color: #59392C;
   margin-top: -300px;
   padding-bottom: 60px;
 }
@@ -898,7 +895,7 @@ nav button {
   text-transform: uppercase;
 }
 .form h1 span {
-  color: #4A1C26;
+  color: #59392C;
   font-family: Futura-Medium;
   font-size: 41.121px;
   font-style: normal;
@@ -957,6 +954,19 @@ nav button {
   letter-spacing: 0.277px;
   padding: 10px;
 }
+.form .form-box select {
+  stroke-width: 0.864px;
+  stroke: #000;
+  background: transparent;
+  color: #202020;
+  font-family: Futura-Book;
+  font-size: 13.827px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.277px;
+  padding: 10px;
+  width: 100%;
+}
 .form .form-box label {
   color: #202020;
   font-family: Futura-Book;
@@ -976,6 +986,12 @@ nav button {
   stroke: #000;
   background: transparent;
   height: 135.89px;
+}
+.form .form-box button {
+  background-color: #A55B39;
+  color: #fff;
+  border: none;
+  padding: 5px 16px;
 }
 
 .phone-form {
@@ -1002,7 +1018,7 @@ nav button {
   margin-bottom: 0px;
 }
 .phone-form .form-box h2 span {
-  color: #4A1C26;
+  color: #59392C;
   font-family: Futura-Medium;
   font-size: 14.554px;
   font-style: normal;
@@ -1029,13 +1045,26 @@ nav button {
   stroke: #000;
   background: transparent;
 }
+.phone-form .form-box select {
+  width: 100%;
+  stroke-width: 0.864px;
+  stroke: #000;
+  background: transparent;
+  color: #202020;
+  font-family: Futura-Book;
+  font-size: 13.827px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.277px;
+  padding: 10px;
+}
 .phone-form .form-box textarea {
   width: 100%;
   background: transparent;
 }
 .phone-form .form-box button {
   border-radius: 1.632px;
-  background: #4A1C26;
+  background: #59392C;
   box-shadow: 0px 1.305px 1.305px 0px rgba(0, 0, 0, 0.25);
   margin-bottom: 20px;
 }

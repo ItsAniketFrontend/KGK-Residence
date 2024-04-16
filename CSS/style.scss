@@ -38,7 +38,7 @@
 
 
 nav {
-    background: linear-gradient(271deg, #4A1C26 -5.65%, #6B2E3B 117.86%);
+    background: #59392C;
     height: 64px;
     padding: 0px !important;
 
@@ -80,7 +80,7 @@ nav {
 
     button {
         border: 1px solid #FFF;
-        background-color: #4A1C26;
+        background-color: #59392C;
         padding: 2px 10px;
     }
 
@@ -155,7 +155,7 @@ nav {
 
         h1,
         h2 {
-            color: #4A1C26;
+            color: #59392C;
             font-family: century-gothic;
             font-size: 30px;
             font-style: normal;
@@ -235,7 +235,7 @@ nav {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 150px;
+    padding-bottom: 68px;
 
     @media (max-width:774px) {
         padding-bottom: 30px;
@@ -250,7 +250,7 @@ nav {
         }
 
         h2 {
-            color: #4A1C26;
+            color: #59392C;
             font-family: Lemon-Milk-Medium;
             font-size: 30px;
             font-style: normal;
@@ -322,7 +322,7 @@ nav {
         }
 
         h2 {
-            color: #612532;
+            color: #59392C;
             font-family: Lemon-Milk-Medium;
             font-size: 40.895px;
             font-style: normal;
@@ -336,7 +336,7 @@ nav {
 
 .phone-about {
     h2 {
-        color: #4A1C26;
+        color: #59392C;
         text-align: center;
         font-family: Lemon-Milk-Medium;
         font-size: 17.92px;
@@ -367,7 +367,7 @@ nav {
 
     button {
         border: none;
-        background: #4A1C26;
+        background: #59392C;
         padding: 4px 20px;
         margin-bottom: 38px;
 
@@ -388,7 +388,7 @@ nav {
 
 .amenities {
     .bg {
-        background: #612532;
+        background: #59392C;
 
         .cole {
             margin-top: -100px;
@@ -463,7 +463,7 @@ nav {
             }
 
             &:hover .content-wrap {
-                bottom: 40px;
+                bottom: 70px;
             }
 
             &:hover img {
@@ -476,7 +476,7 @@ nav {
 
 .phone-aminities {
 
-    background: #612532;
+    background: #59392C;
     p{
         color: #fff;
 font-family: Futura-Medium;
@@ -507,12 +507,15 @@ text-transform: uppercase;
             border-top-right-radius: 200px;
             margin: 30px 0px;
             width: 100%;
+            filter: brightness(0.9);
+
         }
 
         .content-wrap {
             position: absolute;
             bottom: -180px;
             transition: all 0.4s;
+            bottom: 70px;
 
             h6 {
                 font-family: Futura-Medium;
@@ -534,7 +537,7 @@ text-transform: uppercase;
                 text-align: center;
                 text-shadow: -2px 3px 2.2px rgba(0, 0, 0, 0.32);
                 font-family: Lemon-Milk-Medium;
-                font-size: 30px;
+                font-size: 18px;
                 font-style: normal;
                 letter-spacing: 2.1px;
                 font-weight: 500;
@@ -557,14 +560,6 @@ text-transform: uppercase;
                 }
             }
         }
-
-        &:hover .content-wrap {
-            bottom: 40px;
-        }
-
-        &:hover img {
-            filter: brightness(0.6);
-        }
     }
 
 
@@ -578,7 +573,7 @@ text-transform: uppercase;
     background-size: cover;
 
     h2 {
-        color: #4A1C26;
+        color: #59392C;
         font-family: Lemon-Milk-Medium;
         font-size: 30px;
         font-style: normal;
@@ -600,7 +595,7 @@ text-transform: uppercase;
     }
 
     h6 {
-        color: #4A1C26;
+        color: #59392C;
         font-family: Futura-Heavy;
         font-size: 20px;
         font-style: normal;
@@ -611,7 +606,7 @@ text-transform: uppercase;
 
 .location-phone {
     h1 {
-        color: #4A1C26;
+        color: #59392C;
         font-family: Lemon-Milk-Medium;
         font-size: 17px;
         font-style: normal;
@@ -638,7 +633,7 @@ text-transform: uppercase;
     }
 
     h2 {
-        color: #4A1C26;
+        color: #59392C;
         font-family: Futura-Heavy;
         font-size: 18px;
         font-style: normal;
@@ -690,7 +685,7 @@ text-transform: uppercase;
     }
 
     h1 {
-        color: #612532;
+        color: #59392C;
         font-family: Lemon-Milk-Medium;
         font-size: 35px;
         font-style: normal;
@@ -700,7 +695,7 @@ text-transform: uppercase;
 
     .tab-content {
         padding: 30px 0px;
-        background: #4A1C26;
+        background: #59392C;
 
         .img-box {
             height: 385px;
@@ -779,7 +774,7 @@ text-transform: uppercase;
     }
 
     h1 {
-        color: #612532;
+        color: #59392C;
         font-family: Lemon-Milk-Medium;
         font-size: 18.247px;
         font-style: normal;
@@ -791,7 +786,7 @@ text-transform: uppercase;
 
     .tab-content {
         padding: 30px 0px;
-        background: #4A1C26;
+        background: #59392C;
 
         .img-box {
             height: 385px;
@@ -866,7 +861,7 @@ text-transform: uppercase;
     }
 
     h2 {
-        color: #612532;
+        color: #59392C;
         font-family: Lemon-Milk-Medium;
         font-size: 40.895px;
         font-style: normal;
@@ -894,6 +889,7 @@ text-transform: uppercase;
 
     .bg {
         height: 1px;
+        border: 1px solid #fff;
         border-radius: 0.5px;
         background: #fff;
     }
@@ -916,7 +912,7 @@ text-transform: uppercase;
 }
 
 .phone-gallery {
-    background: #4A1C26;
+    background: #59392C;
 
     p {
         color: #FFF;
@@ -984,7 +980,7 @@ text-transform: uppercase;
 
 .form {
     padding-top: 300px;
-    background-color: #4A1C26;
+    background-color: #59392C;
     margin-top: -300px;
     padding-bottom: 60px;
 
@@ -1008,7 +1004,7 @@ text-transform: uppercase;
         text-transform: uppercase;
 
         span {
-            color: #4A1C26;
+            color: #59392C;
             font-family: Futura-Medium;
             font-size: 41.121px;
             font-style: normal;
@@ -1071,6 +1067,19 @@ text-transform: uppercase;
             letter-spacing: 0.277px;
             padding: 10px;
         }
+        select{
+            stroke-width: 0.864px;
+            stroke: #000;
+            background: transparent;
+            color: #202020;
+            font-family: Futura-Book;
+            font-size: 13.827px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.277px;
+            padding: 10px;
+            width: 100%;
+        }
 
         label {
             color: #202020;
@@ -1091,6 +1100,12 @@ text-transform: uppercase;
             stroke: #000;
             background: transparent;
             height: 135.89px;
+        }
+        button{
+            background-color: #A55B39;
+            color: #fff;
+            border: none;
+            padding: 5px 16px;
         }
     }
 }
@@ -1119,7 +1134,7 @@ text-transform: uppercase;
             margin-bottom: 0px;
 
             span {
-                color: #4A1C26;
+                color: #59392C;
                 font-family: Futura-Medium;
                 font-size: 14.554px;
                 font-style: normal;
@@ -1149,6 +1164,19 @@ text-transform: uppercase;
             stroke: #000;
             background: transparent;
         }
+        select{
+            width: 100%;
+            stroke-width: 0.864px;
+            stroke: #000;
+            background: transparent;
+            color: #202020;
+            font-family: Futura-Book;
+            font-size: 13.827px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.277px;
+            padding: 10px;
+        }
 
         textarea {
             width: 100%;
@@ -1157,7 +1185,7 @@ text-transform: uppercase;
 
         button {
             border-radius: 1.632px;
-            background: #4A1C26;
+            background: #59392C;
             box-shadow: 0px 1.305px 1.305px 0px rgba(0, 0, 0, 0.25);
             margin-bottom: 20px;
 
